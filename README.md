@@ -41,7 +41,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  basic_flutter_theme:
+  theme:
     git:
       url: https://github.com/korbi-hub/basic_flutter_theme.git
       ref: main # branch name
