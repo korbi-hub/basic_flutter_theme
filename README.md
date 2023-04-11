@@ -41,7 +41,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  intive_brand_theme_flutter:
+  basic_flutter_theme:
     git:
       url: https://github.com/korbi-hub/basic_flutter_theme.git
       ref: main # branch name
