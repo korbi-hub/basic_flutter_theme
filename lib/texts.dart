@@ -4,7 +4,7 @@ import 'package:theme/colors.dart';
 /// text on primary
 
 const primaryH1Regular = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -12,7 +12,7 @@ const primaryH1Regular = TextStyle(
 );
 
 const primaryH1Bold = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -20,7 +20,7 @@ const primaryH1Bold = TextStyle(
 );
 
 const primaryPRegularLarge = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -28,7 +28,7 @@ const primaryPRegularLarge = TextStyle(
 );
 
 const primaryPBoldLarge = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -36,7 +36,7 @@ const primaryPBoldLarge = TextStyle(
 );
 
 const primaryPRegularMedium = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -44,7 +44,7 @@ const primaryPRegularMedium = TextStyle(
 );
 
 const primaryPBoldMedium = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -52,7 +52,7 @@ const primaryPBoldMedium = TextStyle(
 );
 
 const primaryPRegularSmall = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -60,7 +60,7 @@ const primaryPRegularSmall = TextStyle(
 );
 
 const primaryPBoldSmall = TextStyle(
-    color: textDark,
+    color: textOnNeutralLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -69,7 +69,7 @@ const primaryPBoldSmall = TextStyle(
 
 // primary light
 const primaryLightH1Bold = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -77,7 +77,7 @@ const primaryLightH1Bold = TextStyle(
 );
 
 const primaryLightH1Regular = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -85,7 +85,7 @@ const primaryLightH1Regular = TextStyle(
 );
 
 const primaryLightPRegularLarge = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -93,7 +93,7 @@ const primaryLightPRegularLarge = TextStyle(
 );
 
 const primaryLightPBoldLarge = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -101,7 +101,7 @@ const primaryLightPBoldLarge = TextStyle(
 );
 
 const primaryLightPRegularMedium = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -109,7 +109,7 @@ const primaryLightPRegularMedium = TextStyle(
 );
 
 const primaryLightPBoldMedium = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -117,7 +117,7 @@ const primaryLightPBoldMedium = TextStyle(
 );
 
 const primaryLightPRegularSmall = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w400,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -125,81 +125,16 @@ const primaryLightPRegularSmall = TextStyle(
 );
 
 const primaryLightPBoldSmall = TextStyle(
-    color: textOnPrimaryLight,
+    color: textOnNeutralDark,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
     fontSize: 12.0,
 );
 
-// primary inactive
-const primaryInactiveH1Bold = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w700,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 24.0,
-);
-
-const primaryInactiveH1Regular = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w400,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 24.0,
-);
-
-const primaryInactivePRegularLarge = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w400,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 16.0,
-);
-
-const primaryInactivePBoldLarge = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w700,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 16.0,
-);
-
-const primaryInactivePRegularMedium = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w300,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 14.0,
-);
-
-const primaryInactivePBoldMedium = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w700,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 14.0,
-);
-
-const primaryInactivePRegularSmall = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w300,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 12.0,
-);
-
-const primaryInactivePBoldSmall = TextStyle(
-    color: textInactive,
-    fontWeight: FontWeight.w700,
-    fontFamily: 'Roboto',
-    fontStyle:  FontStyle.normal,
-    fontSize: 12.0,
-);
-
-/// On Secondary Font Styles
+/// On Secondary Light Font Styles
 const secondaryH1Bold = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -207,7 +142,7 @@ const secondaryH1Bold = TextStyle(
 );
 
 const secondaryH1Regular = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -215,7 +150,7 @@ const secondaryH1Regular = TextStyle(
 );
 
 const secondaryPRegularLarge = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -223,7 +158,7 @@ const secondaryPRegularLarge = TextStyle(
 );
 
 const secondaryPBoldLarge = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -231,7 +166,7 @@ const secondaryPBoldLarge = TextStyle(
 );
 
 const secondaryPRegularMedium = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -239,7 +174,7 @@ const secondaryPRegularMedium = TextStyle(
 );
 
 const secondaryPBoldMedium = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -247,7 +182,7 @@ const secondaryPBoldMedium = TextStyle(
 );
 
 const secondaryPRegularSmall = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -255,7 +190,72 @@ const secondaryPRegularSmall = TextStyle(
 );
 
 const secondaryPBoldSmall = TextStyle(
-    color: textLight,
+    color: textOnSecondaryLight,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 12.0,
+);
+
+/// On Secondary Dark Font Styles
+const secondaryDarkH1Bold = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 24.0,
+);
+
+const secondaryDarkH1Regular = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 24.0,
+);
+
+const secondaryDarkPRegularLarge = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 16.0,
+);
+
+const secondaryDarkPBoldLarge = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 16.0,
+);
+
+const secondaryDarkPRegularMedium = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 14.0,
+);
+
+const secondaryDarkPBoldMedium = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 14.0,
+);
+
+const secondaryDarkPRegularSmall = TextStyle(
+    color: textOnSecondaryDark,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 12.0,
+);
+
+const secondaryDarkPBoldSmall = TextStyle(
+    color: textOnSecondaryDark,
     fontWeight: FontWeight.w700,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -264,7 +264,7 @@ const secondaryPBoldSmall = TextStyle(
 
 /// text on error
 const errorLarge = TextStyle(
-    color: error,
+    color: textOnError,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -272,7 +272,7 @@ const errorLarge = TextStyle(
 );
 
 const errorRegular = TextStyle(
-    color: error,
+    color: textOnError,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -280,16 +280,16 @@ const errorRegular = TextStyle(
 );
 
 const errorSmall = TextStyle(
-    color: error,
+    color: textOnError,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
     fontSize: 12.0,
 );
 
-/// text primary
+/// text primary Color
 const primaryLarge = TextStyle(
-    color: primary700,
+    color: primary,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -297,7 +297,7 @@ const primaryLarge = TextStyle(
 );
 
 const primaryRegular = TextStyle(
-    color: primary700,
+    color: primary,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
@@ -305,7 +305,32 @@ const primaryRegular = TextStyle(
 );
 
 const primarySmall = TextStyle(
-    color: primary700,
+    color: primary,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 12.0,
+);
+
+/// text secondary Color
+const secondaryLarge = TextStyle(
+    color: secondary,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 16.0,
+);
+
+const secondaryRegular = TextStyle(
+    color: secondary,
+    fontWeight: FontWeight.w300,
+    fontFamily: 'Roboto',
+    fontStyle:  FontStyle.normal,
+    fontSize: 14.0,
+);
+
+const secondarySmall = TextStyle(
+    color: secondary,
     fontWeight: FontWeight.w300,
     fontFamily: 'Roboto',
     fontStyle:  FontStyle.normal,
