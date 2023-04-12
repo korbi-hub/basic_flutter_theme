@@ -15,20 +15,22 @@ class Themes {
     useMaterial3: true,
     colorScheme: colorSchemeLight,
     fontFamily: 'Roboto',
-    appBarTheme: _appBarThemeLight,
+    appBarTheme: _appBarTheme,
     hintColor: textOnPrimaryLight,
     shadowColor: shadow,
     cardTheme: _cardTheme,
+    iconTheme: _iconThemeDark,
   );
 
   static final ThemeData _themeDark = ThemeData(
     useMaterial3: true,
     colorScheme: colorSchemeDark,
     fontFamily: 'Roboto',
-    appBarTheme: _appBarThemeDark,
+    appBarTheme: _appBarTheme,
     hintColor: textOnPrimaryDark,
     shadowColor: shadow,
     cardTheme: _cardTheme,
+    iconTheme: _iconThemeDark,
   );
 
   static const _cardTheme = CardTheme(
@@ -37,22 +39,15 @@ class Themes {
     margin: marginRegularAll,
   );
 
-  static const _appBarThemeLight = AppBarTheme(
+  static const _appBarTheme = AppBarTheme(
     elevation: 2,
     iconTheme: _iconThemeLight,
     centerTitle: true,
     titleTextStyle: primaryH1Bold,
   );
 
-  static const _appBarThemeDark = AppBarTheme(
-    elevation: 2,
-    iconTheme: _iconThemeDark,
-    centerTitle: true,
-    titleTextStyle: primaryH1Bold,
-  );
+  static const _iconThemeLight = IconThemeData(color: textOnPrimaryDark);
 
-  static const _iconThemeLight = IconThemeData(color: textOnPrimaryLight);
-
-  static const _iconThemeDark = IconThemeData(color: textOnPrimaryDark);
+  static const _iconThemeDark = IconThemeData(color: textOnPrimaryLight);
 
 }
