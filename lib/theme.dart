@@ -19,7 +19,7 @@ class Themes {
     hintColor: textOnPrimaryLight,
     shadowColor: shadow,
     cardTheme: _cardTheme,
-    iconTheme: _iconThemeDark,
+    iconTheme: _iconThemeLight,
   );
 
   static final ThemeData _themeDark = ThemeData(
@@ -30,7 +30,7 @@ class Themes {
     hintColor: textOnPrimaryDark,
     shadowColor: shadow,
     cardTheme: _cardTheme,
-    iconTheme: _iconThemeDark,
+    iconTheme: _iconThemeLight,
   );
 
   static const _cardTheme = CardTheme(
