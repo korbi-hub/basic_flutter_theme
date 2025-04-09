@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:theme/colors.dart';
+import 'package:basic_flutter_theme/colors.dart';
 
 const _iconSizeXSmall = 24.0;
 const _iconSizeSmall = 32.0;
@@ -56,4 +56,3 @@ const iconStyleXLargeLight = IconThemeData(
   size: _iconSizeXLarge,
   color: textOnPrimaryLight,
 );
-

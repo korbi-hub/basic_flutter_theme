@@ -1,14 +1,15 @@
+import 'package:basic_flutter_theme/colors.dart';
+import 'package:basic_flutter_theme/dimensions.dart';
+import 'package:basic_flutter_theme/texts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:theme/colors.dart';
-import 'package:theme/dimensions.dart';
-import 'package:theme/texts.dart';
 
 class Themes {
-
   static ThemeData getThemeData() {
-    return SchedulerBinding.instance.platformDispatcher.platformBrightness == Brightness.light?
-      _themeLight : _themeDark;
+    return SchedulerBinding.instance.platformDispatcher.platformBrightness ==
+            Brightness.light
+        ? _themeLight
+        : _themeDark;
   }
 
   static final ThemeData _themeLight = ThemeData(
@@ -49,5 +50,4 @@ class Themes {
   static const _iconThemeLight = IconThemeData(color: textOnPrimaryDark);
 
   static const _iconThemeDark = IconThemeData(color: textOnPrimaryLight);
-
 }

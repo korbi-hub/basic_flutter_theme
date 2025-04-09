@@ -20,11 +20,9 @@ const colorSchemeLight = ColorScheme(
 
 /// dark color scheme
 const colorSchemeDark = ColorScheme(
-  background: neutralDark,
   brightness: Brightness.dark,
   error: errorDark,
   errorContainer: errorDark,
-  onBackground: textOnNeutralDark,
   onError: textOnError,
   onErrorContainer: textOnError,
   onPrimary: textOnPrimaryDark,
@@ -112,4 +110,3 @@ const success = Color(0xff34c759);
 const successDark = Color(0xff299b4f);
 const successLight = Color(0xff5bd96f);
 const textOnSuccess = white200;
-

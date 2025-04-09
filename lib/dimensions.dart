@@ -33,5 +33,6 @@ const marginRegularRight = EdgeInsets.only(right: _marginSizeRegular);
 const marginLargeRight = EdgeInsets.only(right: _marginSizeLarge);
 
 const spacerSmall = SizedBox(width: _marginSizeSmall, height: _marginSizeSmall);
-const spacerRegular = SizedBox(width: _marginSizeRegular, height: _marginSizeRegular);
+const spacerRegular =
+    SizedBox(width: _marginSizeRegular, height: _marginSizeRegular);
 const spacerLarge = SizedBox(width: _marginSizeLarge, height: _marginSizeLarge);
