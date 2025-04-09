@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 
 /// light color scheme
 const colorSchemeLight = ColorScheme(
-  background: neutralLight,
+  surfaceContainerHighest: neutralLight,
   brightness: Brightness.light,
   error: errorLight,
   errorContainer: errorLight,
-  onBackground: textOnNeutralLight,
   onError: textOnError,
   onErrorContainer: textOnError,
   onPrimary: textOnPrimaryLight,
